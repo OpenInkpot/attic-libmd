@@ -1,0 +1,25 @@
+Source: libmd
+Section: core
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 4), quilt
+Priority: oprional
+Standards-Version: 3.6.2
+
+Package: libmd0
+Section: core
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: cryptographic message digest library.
+ Library implements the following message digest algorithms:
+  - SHA-1 (FIPS PUB 180.1 - NIST) 
+
+Package: libmd-dev
+Section: libdevel
+Priority: optional
+Architecture: any
+Depends: libmd0 (= ${binary:Version})
+Description: cryptographic message digest library (development files).
+ Library implements the following message digest algorithms:
+  - SHA-1 (FIPS PUB 180.1 - NIST) 
+ This package contains development files required to link with the library.
