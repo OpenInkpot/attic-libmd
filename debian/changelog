@@ -1,3 +1,9 @@
+libmd (0.3-0.oi2) unstable; urgency=low
+
+  * sha renamed to sha1 for compatibility with BSD libmd.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sun, 14 Sep 2008 19:58:10 +0700
+
 libmd (0.3-0.oi1) asimov; urgency=low
 
   * Initial release.
