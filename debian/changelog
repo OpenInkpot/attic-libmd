@@ -1,3 +1,9 @@
+libmd (0.3-0.oi3) unstable; urgency=low
+
+  * SONAME added.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Fri, 19 Sep 2008 05:27:27 +0700
+
 libmd (0.3-0.oi2) unstable; urgency=low
 
   * sha renamed to sha1 for compatibility with BSD libmd.

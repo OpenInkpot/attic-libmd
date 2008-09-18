@@ -1,0 +1,13 @@
+Index: libmd/Makefile.in
+===================================================================
+--- libmd.orig/Makefile.in	2008-09-18 22:28:31.000000000 +0000
++++ libmd/Makefile.in	2008-09-18 22:28:45.000000000 +0000
+@@ -59,7 +59,7 @@
+ 	sed -e 's/mdX/sha1/g' -e 's/MDX/SHA1/g' $? > $@
+ 
+ libmd.so.1.0:	$(OBJ)
+-	$(CC) -shared -o libmd.so.1.0 $(OBJ)
++	$(CC) -shared -Wl,-soname=libmd.so.1 -o $@ $(OBJ)
+ 
+ libmd.a:	$(OBJ)
+ 	rm -f libmd.a

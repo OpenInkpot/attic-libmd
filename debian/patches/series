@@ -1,2 +1,3 @@
 disable-algos.patch
 sha-sha1-rename.patch
+add-soname.patch
